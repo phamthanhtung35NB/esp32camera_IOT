@@ -1,5 +1,3 @@
-
-
 /*
   Rui Santos
   Complete project details at https://RandomNerdTutorials.com/esp32-cam-shield-pcb-telegram/
@@ -60,9 +58,9 @@ UniversalTelegramBot bot(BOTtoken, clientTCP);
 
 #define FLASH_LED_PIN 4
 bool flashState = LOW;
+
+// chân kích rơ le đèn
 #define den_san 2
-
-
 
 // Motion Sensor
 bool motionDetected = false;
